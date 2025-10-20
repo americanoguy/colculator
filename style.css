@@ -1,0 +1,62 @@
+body{
+    height: 90vh;
+    display: flex;
+    justify-content:center; 
+    align-items:center; 
+    
+}
+
+
+#Netice{ 
+    background-color: lightgray; 
+    border-radius: 15px; 
+    height: 10vh; 
+    font-size: 2em; 
+    padding: 15px; 
+    display: flex; 
+    margin-bottom: 3vh; 
+    align-items: center; 
+    font-family: Arial, Helvetica, sans-serif; 
+} 
+
+.Calculator{ 
+    margin-top: 20px;
+    background-color: rgb(78, 76, 76);
+    box-shadow: 0 0 20px white; 
+    border-radius: 15px; 
+    height: 85vh;
+    padding: 20px; 
+} 
+    
+    
+.row button{ 
+     width: 4vw; 
+     height: 4vw; 
+     padding: 10px; 
+     border-radius: 15px; 
+     margin: 10px; 
+     font-size: 2em; 
+     justify-content: center; 
+     align-items: center; 
+     transition: all 0.3s; 
+     border: none; 
+} 
+
+.row button:hover{ 
+    background-color: orange; 
+    color: white; 
+} 
+
+#berabernoqtesi{ 
+    background-color: orange; 
+    color: white; 
+}
+
+#changemode{ 
+    width: fit-content; 
+    font-size: 2em; 
+    border: none; 
+    border-radius: 15px;
+    padding: 10px; 
+    margin: 50px; 
+} 
