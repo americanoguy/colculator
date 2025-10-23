@@ -12,48 +12,49 @@
     />
   </head>
   <body>
-    <div id="mode">
-      <button id="changemode" onclick="changemode()">Change mode</button>
-    </div>
-
-    <div class="Calculator">
-      <div id="Netice"></div>
-      <div class="duymeler">
-        <div class="row">
-          <button onclick="Cfunction()">C</button>
-          <button onclick="Elaveet('*')">x</button>
-          <button onclick="Elaveet('/')">÷</button>
-          <button onclick="reqemsilme()">⌫</button>
-        </div>
-        <br />
-        <div class="row">
-          <button onclick="Elaveet('7')">7</button>
-          <button onclick="Elaveet('8')">8</button>
-          <button onclick="Elaveet('9')">9</button>
-          <button onclick="Elaveet('-')">-</button>
-        </div>
-        <br />
-        <div class="row">
-          <button onclick="Elaveet('4')">4</button>
-          <button onclick="Elaveet('5')">5</button>
-          <button onclick="Elaveet('6')">6</button>
-          <button onclick="Elaveet('+')">+</button>
-        </div>
-        <br />
-        <div class="row">
-          <button onclick="Elaveet('1')">1</button>
-          <button onclick="Elaveet('2')">2</button>
-          <button onclick="Elaveet('3')">3</button>
-          <button id="berabernoqtesi" onclick="hesabla()">=</button>
-        </div>
-        <br />
-        <div class="row">
-          <button onclick="Elaveet('0')">0</button>
-          <button onclick="Elaveet('.')">.</button>
+    <div class="colculatordivi">
+      <div class="Calculator">
+        <div id="Netice"></div>
+        <div class="duymeler">
+          <div class="row">
+            <button onclick="Cfunction()">C</button>
+            <button onclick="Elaveet('*')">x</button>
+            <button onclick="Elaveet('/')">÷</button>
+            <button onclick="reqemsilme()">←</button>
+          </div>
+          <br />
+          <div class="row">
+            <button onclick="Elaveet('7')">7</button>
+            <button onclick="Elaveet('8')">8</button>
+            <button onclick="Elaveet('9')">9</button>
+            <button onclick="Elaveet('-')">-</button>
+          </div>
+          <br />
+          <div class="row">
+            <button onclick="Elaveet('4')">4</button>
+            <button onclick="Elaveet('5')">5</button>
+            <button onclick="Elaveet('6')">6</button>
+            <button onclick="Elaveet('+')">+</button>
+          </div>
+          <br />
+          <div class="row">
+            <button onclick="Elaveet('1')">1</button>
+            <button onclick="Elaveet('2')">2</button>
+            <button onclick="Elaveet('3')">3</button>
+            <button id="berabernoqtesi" onclick="hesabla()">=</button>
+          </div>
+          <br />
+          <div class="row">
+            <button onclick="Elaveet('0')">0</button>
+            <button onclick="Elaveet('.')">.</button>
+          </div>
         </div>
       </div>
     </div>
-
+    <div id="mode">
+      <button id="changemode" onclick="changemode()">Dark Mode</button>
+    </div>
+    <br />
     <script src="./script.js"></script>
   </body>
 </html>

@@ -21,7 +21,7 @@ function hesabla(){
 }
 
 
-
+const buttons= document.getElementsByClassName("row")
 
 const mod = document.getElementById("changemode");
 
@@ -33,12 +33,13 @@ function changemode() {
     if(darkmode){
         document.body.style.background = "#121212";
         document.body.style.color = "white";
+        mod.innerHTML ="Light Mode"
         mod.style.background ="white"
         mod.style.color ="black"
-
     } else {
         document.body.style.background = "white";
         document.body.style.color = "black";
+        mod.innerHTML="Dark mode"
         mod.style.background = "black"
         mod.style.color="white"
     }
